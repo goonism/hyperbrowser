@@ -1,0 +1,25 @@
+{
+  "name": "hyperbrowser",
+  "version": "1.0.0",
+  "description": "Connect to Hyper nodes via WebRTC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js > built.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goonism/hyperbrowser.git"
+  },
+  "author": "@stayfun_",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goonism/hyperbrowser/issues"
+  },
+  "homepage": "https://github.com/goonism/hyperbrowser#readme",
+  "dependencies": {
+    "browserify": "^16.1.0",
+    "signalhub": "^4.9.0",
+    "webrtc-swarm": "^2.9.0"
+  }
+}

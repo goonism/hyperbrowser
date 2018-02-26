@@ -20,6 +20,7 @@
   "dependencies": {
     "browserify": "^16.1.0",
     "signalhub": "^4.9.0",
+    "signalhubws": "^1.0.3",
     "webrtc-swarm": "^2.9.0"
   }
 }
